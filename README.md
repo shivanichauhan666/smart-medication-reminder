@@ -31,6 +31,5 @@ Add medicines and set schedules.
 Receive notifications 10 minutes before and at the scheduled time.
 Mark medicines as taken.
 View adherence through the dashboard.
-## License
-This project is licensed under the MIT License.
+
 
