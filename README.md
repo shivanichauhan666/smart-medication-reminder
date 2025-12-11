@@ -26,11 +26,11 @@ It helps users manage medicines, receive timely reminders, and track adherence t
    JDBC URL: jdbc:h2:mem:testdb (default)
    Username: sa
    Password: leave blank
-**Usage**
+## Usage
 Add medicines and set schedules.
 Receive notifications 10 minutes before and at the scheduled time.
 Mark medicines as taken.
 View adherence through the dashboard.
-**License**
+## License
 This project is licensed under the MIT License.
 
