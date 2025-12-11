@@ -1,0 +1,7 @@
+com\example\medreminder\model\Medication.class
+com\example\medreminder\SmartMedicationReminderApplication.class
+com\example\medreminder\service\MedicationService.class
+com\example\medreminder\repository\UserRepository.class
+com\example\medreminder\repository\MedicationRepository.class
+com\example\medreminder\controller\MedicationController.class
+com\example\medreminder\model\User.class

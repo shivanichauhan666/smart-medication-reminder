@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Smart Medication Reminder</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="favicon.ico">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+</head>
+<body>
+    <div class="container">
+
+        <header>
+            <img src="logo1.png" width="150" height="150" class="logo">
+            <h1> Smart Medication Reminder</h1>
+            <p>Track. Manage. Stay Healthy.</p>
+        </header>
+
+        <div class="grid">
+
+            <!-- Add Medication Card -->
+            <div class="card">
+                <h2>Add Medication</h2>
+                <form id="medForm">
+                    <input type="text" id="name" placeholder="Medicine Name" required>
+                    <input type="text" id="dosage" placeholder="Dosage" required>
+                    <input type="text" id="time" placeholder="Time(s) HH:MM, comma separated" required>
+                    <input type="date" id="startDate" required>
+                    <input type="date" id="endDate" required>
+                    <button type="submit">➕ Add Medication</button>
+                </form>
+            </div>
+
+            <!-- Today's Medications Table -->
+            <div class="card">
+                <h2>Today's Medications</h2>
+                <table id="medListTable">
+                    <thead>
+                        <tr>
+                            <th>Time</th>
+                            <th>Name</th>
+                            <th>Dosage</th>
+                            <th>Action</th>
+                        </tr>
+                    </thead>
+                    <tbody id="medList"></tbody>
+                </table>
+            </div>
+
+            <!-- Weekly Report -->
+           <div class="card large">
+    <h2>Weekly Adherence Report</h2>
+    <div class="chart-container">
+        <canvas id="adherenceChart"></canvas>
+    </div>
+    <div id="reportDetails"></div>
+</div>
+
+
+
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
